@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html><head>
+    <title>
+        Login
+    </title>
+    <style>
+        *{
+           padding: 0;
+           margin: 0;
+           /* background-image: url("cdac.png"); */
+       
+        }
+        body {
+            /* background: url("cdac.png") no-repeat center center fixed; 
+            height : 150px;
+            background-size: cover; */
+            height : 50px;
+  background-image: radial-gradient(rgb(175, 67, 67), rgb(225, 225, 136), rgb(144, 230, 144));
+            
+      
+           
+        }
+        #Container{
+            display: flex;
+           justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 400px;
+            background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
+            margin: 80px auto ;
+            text-align: center;
+            font-size: larger;
+            
+            
+        }
+
+
+
+        input[type= "text"]:hover,input[type = "password"]:hover{
+            cursor:pointer;
+            border:#bd8606;
+       
+        }
+
+
+
+
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #f6f6f6;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<div id ="Container">
+ <form action=" " method="Post">
+     Username<input type = "text" placeholder="uname"><br>
+        password<input type = "password" placeholder="password"><br>
+     <br><input type = submit> <input type = reset>
+ </form>
+</div>
+    
+</html>
+
+

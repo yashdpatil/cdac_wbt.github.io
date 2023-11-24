@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    color: aliceblue;
+    background-color: rgb(31, 31, 33);
+    font-weight: 200;
+    
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #eee6e6;
+    border:rgb(210, 206, 206);
+    font-size: 25px;
+    cursor: pointer;
+}

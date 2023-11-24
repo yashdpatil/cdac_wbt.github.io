@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Poppins:wght@300&display=swap');
+
+        *{
+           padding: 0;
+           margin: 0;
+           font-family: 'Bodoni Moda', serif;
+font-family: 'Poppins', sans-serif;
+          
+           /* background-image: url("cdac.png"); */
+       
+        }
+        body {
+            /* background: url("cdac.png") no-repeat center center fixed; 
+            height : 150px;
+            background-size: cover; */
+            /* display: flex; */
+            /* height : 50px; */
+  background-image: radial-gradient(rgb(175, 67, 67), rgb(225, 225, 136), rgb(144, 230, 144));
+            
+      
+           
+        }
+        .Container{
+            /* display: flex;
+           justify-content: center;
+            align-items: center; */
+            
+            width: 800px;
+            height: 450px;
+            background: linear-gradient(to top left,#3eff5e,#f2ffa8);
+            margin: 90px auto ;
+            text-align: center;
+            font-size: x-large;
+            
+            
+        }
+        #sub_btn{
+            width: 30%;
+        }
+
+
+
+        input[type= "text"]:hover,input[type = "password"]:hover{
+            cursor:pointer;
+            border:#bd8606;
+       
+        }
+        p{
+           
+            color:#363062; 
+            font-size: x-large;
+        
+        }
+
+
+
+
+
+
+        input[type="submit"]:hover {
+            background-color: #f6f6f6;
+            border: none;
+            font-size: 5px;
+            cursor: pointer;
+        }
+
+h1{
+    /* display: flex; */
+
+    /* justify-content: center; */
+    align-items: center;
+}
+input{
+    width : 50%;
+    padding :15px;
+    border: 2px,solid,#cccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 4px;
+
+
+}
+.Get{
+    display: flex;
+    justify-content: center;
+    
+}
+
