@@ -1,0 +1,67 @@
+
+        *{
+           padding: 0;
+           margin: 0;
+           /* background-image: url("cdac.png"); */
+       
+        }
+        body {
+            /* background: url("cdac.png") no-repeat center center fixed; 
+            height : 150px;
+            background-size: cover; */
+            height : 50px;
+  background-image: radial-gradient(rgb(175, 67, 67), rgb(225, 225, 136), rgb(144, 230, 144));
+            
+      
+           
+        }
+        #Container{
+            display: flex;
+           justify-content: center;
+            align-items: center;
+            width: 500px;
+            height: 400px;
+            background: linear-gradient(to top left,#3eff5e,#f2ffa8);
+            margin: 80px auto ;
+            text-align: center;
+            font-size: larger;
+            
+            
+        }
+
+
+
+        input[type= "text"]:hover,input[type = "password"]:hover{
+            cursor:pointer;
+            border:#bd8606;
+       
+        }
+
+
+
+
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #f6f6f6;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+h1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+input{
+    width : 100%;
+    padding :10px;
+    border: 2px,solid,#cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+
+
+}
+
